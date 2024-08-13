@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import ArrowCard from "@components/ArrowCard.astro";
+import ArrowCardPub from "@components/ArrowCardPub.astro";
 import { publicationS } from "@consts";
 
 const publications = (await getCollection("publications"))
@@ -20,7 +20,7 @@ const publications = (await getCollection("publications"))
         {
           publications.map((publication) => (
             <li>
-              <ArrowCard entry={publication}/>
+              <ArrowCardPub entry={publication}/>
             </li>
           ))
         }

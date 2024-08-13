@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import Container from "@components/Container.astro";
 import PageLayout from "@layouts/PageLayout.astro";
 import ArrowCard from "@components/ArrowCard.astro";
+import ArrowCardPub from "@components/ArrowCardPub.astro";
 import Link from "@components/Link.astro";
 import { dateRange } from "@lib/utils";
 import { SITE, HOME, SOCIALS } from "@consts";
@@ -37,8 +38,8 @@ const work = await Promise.all(
     </h4>
     <div class="space-y-16">
       <section>
-        <article class="space-y-4">
-          <p class="animate">
+        <article class="space-y-4"}>
+          <p class="animate", align="justify">
             I am a <strong>young researcher</strong> in the field of <strong>quantum foundations</strong>. In my <strong>Ph.D.</strong>, I am studying the properties of quantum theory using the <strong>Framework of Operational Probabilistic Theories</strong> to <strong>the deepest question of modern physics</strong>. Objective is to identify and characterize the key properties of this theory, and determine its adequacy to model our physical world. In addition to foundational phenomena I am also interested if the fields of quantum computation and cryptography, quantum gravity, cellular automata and that of causal inference.
         </article>
       </section>
@@ -55,7 +56,7 @@ const work = await Promise.all(
         <ul class="flex flex-col gap-4">
           {publications.map(publication => (
             <li>
-              <ArrowCard entry={publication} />
+              <ArrowCardPub entry={publication} />
             </li>
           ))}
         </ul>
