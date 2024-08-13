@@ -24,11 +24,12 @@ const publications = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
+    authors: z.string(),
+    journalRef: z.string(),
     description: z.string(),
     date: z.coerce.date(),
     draft: z.boolean().optional(),
-    demoURL: z.string().optional(),
-    repoURL: z.string().optional()
+    DOI: z.string().optional()
   }),
 });
 

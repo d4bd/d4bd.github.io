@@ -4,7 +4,7 @@ export const SITE: Site = {
   NAME: "Davide Rolino",
   EMAIL: "davide.rolino01@universitadipavia.it",
   NUM_POSTS_ON_HOMEPAGE: 3,
-  NUM_WORKS_ON_HOMEPAGE: 2,
+  NUM_WORKS_ON_HOMEPAGE: 5,
   NUM_PUBLICATIONS_ON_HOMEPAGE: 3,
 };
 
