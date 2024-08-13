@@ -2,6 +2,7 @@
 title: "Measurement incompatibility is strictly stronger than disturbance"
 authors: "M. Erba, P. Perinotti, DR, and A. Tosini"
 journalRef: "Phys. Rev. A 109, 022239 (2024)"
+description: "M. Erba, P. Perinotti, DR, and A. Tosini, Phys. Rev. A 109, 022239 (2024)"
 date: "Feb 26 2024"
 DOI: "https://doi.org/10.1103/PhysRevA.109.022239"
 ---

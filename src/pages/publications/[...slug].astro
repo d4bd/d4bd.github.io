@@ -22,7 +22,7 @@ const publication = Astro.props;
 const { Content } = await publication.render();
 ---
 
-<PageLayout title={publication.data.title}>
+<PageLayout title={publication.data.title} description={publication.data.description}>
   <Container>
     <div class="animate">
       <BackToPrev href="/publications">
@@ -46,7 +46,7 @@ const { Content } = await publication.render();
         </nav>
       )}
     </div>
-    <article class="animate", align="justify" >
+    <article class="animate">
       <Content />
     </article>
   </Container>

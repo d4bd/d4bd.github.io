@@ -26,6 +26,7 @@ const publications = defineCollection({
     title: z.string(),
     authors: z.string(),
     journalRef: z.string(),
+    description: z.string(),
     date: z.coerce.date(),
     draft: z.boolean().optional(),
     DOI: z.string().optional()

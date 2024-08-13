@@ -2,6 +2,7 @@
 title: "Minimal operational theories: classical theories with quantum features"
 authors: "DR, M. Erba, A. Tosini, and P. Perinotti"
 journalRef: "arXiv:2408.01368 [quant-ph]"
+description: "DR, M. Erba, A. Tosini, and P. Perinotti, arXiv:2408.01368 [quant-ph]"
 date: "Aug 2 2024"
 DOI: "https://doi.org/10.48550/arXiv.2408.01368"
 ---
