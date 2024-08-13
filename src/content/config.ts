@@ -29,7 +29,8 @@ const publications = defineCollection({
     description: z.string(),
     date: z.coerce.date(),
     draft: z.boolean().optional(),
-    DOI: z.string().optional()
+    DOI: z.string().optional(),
+    arXiv: z.string()
   }),
 });
 

@@ -36,12 +36,23 @@ const { Content } = await publication.render();
       <div class="animate text-black dark:text-white">
         {publication.data.authors}
       </div>
-      {(publication.data.DOI) && (
+      {(publication.data.DOI || publication.data.arXiv) && (
         <nav class="animate flex gap-1">
           {publication.data.DOI && (
             <Link href={publication.data.DOI} external>
               {publication.data.journalRef}
             </Link>
+          )}
+          {publication.data.DOI && publication.data.arXiv && (
+            <span>(</span>
+          )}
+          {publication.data.arXiv && (
+            <Link href={publication.data.arXiv} external>
+              arXiv
+            </Link>
+          )}
+          {publication.data.DOI && publication.data.arXiv && (
+            <span>)</span>
           )}
         </nav>
       )}
