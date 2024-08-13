@@ -32,4 +32,4 @@ const publications = defineCollection({
   }),
 });
 
-export const collections = { blog, work, publications };
+export const collections = { publications, work, blog };
