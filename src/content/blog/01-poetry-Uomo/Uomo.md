@@ -2,7 +2,7 @@
 title: "Uomo"
 description: "A poem wrote a long time ago"
 tag: Poetry
-date: "Jun 26 2022"
+date: "May 07 2019"
 draft: true
 ---
 
