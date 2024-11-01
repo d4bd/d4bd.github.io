@@ -1,8 +1,9 @@
 ---
-company: "Scientific visitor"
+company: "Visiting Ph.D. student"
 role: "Perimeter Institute for Theoretical Physics"
-dateStart: "Nov 2024"
+dateStart: "Oct 2024"
 dateEnd: "Present"
 ---
 
-- Supervisors: **Prof. Robert W. Spekkens** and **Dr. Elie Wolfe**
+- Hosted by **Prof. Robert W. Spekkens**
+- Supervisors during the visit: **Prof. Robert W. Spekkens** and **Dr. Elie Wolfe**
