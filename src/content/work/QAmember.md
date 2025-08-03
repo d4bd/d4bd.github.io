@@ -3,6 +3,7 @@ company: "Member of the Quality Assessment group"
 role: "University of Pavia (IT), Department of physics"
 dateStart: "Oct 2023"
 dateEnd: "Oct 2024"
+dateEnd: "Oct 2024"
 ---
 
 Member of the Quality Assessment group of the Doctoral School in Physics of the University of Pavia

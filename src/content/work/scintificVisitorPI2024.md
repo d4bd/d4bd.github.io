@@ -7,3 +7,4 @@ dateEnd: "Apr 2025"
 
 - Hosted by Prof. Robert W. Spekkens
 - Supervisors during the visit: **Prof. Robert W. Spekkens** and **Dr. Elie Wolfe**
+- Research in **Causal Inference** and **Foundations of Quantum Theory**
